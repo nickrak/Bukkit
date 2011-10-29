@@ -165,14 +165,14 @@ public class MemorySection implements ConfigurationSection {
     }
 
     public void set(String path, Object value) {
-        String[] split = path.split(Pattern.quote(Character.toString(getRoot().options().pathSeparator())));
-        ConfigurationSection section = this;
-
         if (path == null) {
             throw new IllegalArgumentException("Path cannot be null");
         } else if (path.length() == 0) {
             throw new IllegalArgumentException("Cannot set to an empty path");
         }
+        
+        String[] split = path.split(Pattern.quote(Character.toString(getRoot().options().pathSeparator())));
+        ConfigurationSection section = this;
 
         for (int i = 0; i < split.length - 1; i++) {
             ConfigurationSection last = section;
