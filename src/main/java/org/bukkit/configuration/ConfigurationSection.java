@@ -363,6 +363,7 @@ public interface ConfigurationSection {
      * @param path Path of the List to get.
      * @return Requested List.
      */
+    @SuppressWarnings("rawtypes")
     public List getList(String path);
 
     /**
@@ -374,6 +375,7 @@ public interface ConfigurationSection {
      * @param path Path of the List to get.
      * @return Requested List.
      */
+    @SuppressWarnings("rawtypes")
     public List getList(String path, List def);
 
     /**

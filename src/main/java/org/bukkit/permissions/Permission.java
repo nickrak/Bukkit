@@ -308,7 +308,7 @@ public class Permission {
 
     private static Map<String, Boolean> extractChildren(Map<String, Object> data, String name, PermissionDefault def, List<Permission> output) {
         Map<String, Object> input = (Map<String, Object>)data.get("children");
-        Map<String, Boolean> children = new LinkedHashMap();
+        Map<String, Boolean> children = new LinkedHashMap<String, Boolean>();
 
         for (Map.Entry<String, Object> entry : input.entrySet()) {
             if ((entry.getValue() instanceof Boolean)) {

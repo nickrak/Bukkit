@@ -23,6 +23,7 @@ import org.yaml.snakeyaml.representer.Representer;
 /**
  * An implementation of {@link Configuration} which saves all files in Yaml.
  */
+@SuppressWarnings("unchecked")
 public class YamlConfiguration extends FileConfiguration {
     protected static final String COMMENT_PREFIX = "# ";
     protected static final String BLANK_CONFIG = "{}\n";

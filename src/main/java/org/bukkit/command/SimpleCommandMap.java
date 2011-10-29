@@ -77,7 +77,7 @@ public class SimpleCommandMap implements CommandMap {
     public boolean register(String label, String fallbackPrefix, Command command) {
         boolean registeredPassedLabel = register(label, fallbackPrefix, command, false);
 
-        Iterator iterator = command.getAliases().iterator();
+        Iterator<String> iterator = command.getAliases().iterator();
         while (iterator.hasNext()) {
             if (!register((String) iterator.next(), fallbackPrefix, command, true)) {
                 iterator.remove();

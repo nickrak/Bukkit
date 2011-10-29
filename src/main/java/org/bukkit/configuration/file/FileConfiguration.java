@@ -16,6 +16,7 @@ import org.bukkit.configuration.MemoryConfiguration;
 /**
  * This is a base class for all File based implementations of {@link Configuration}
  */
+@SuppressWarnings("unchecked")
 public abstract class FileConfiguration extends MemoryConfiguration {
     /**
      * Creates an empty {@link FileConfiguration} with no default values.

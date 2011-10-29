@@ -7,6 +7,7 @@ import java.util.Map;
  * from any source, and stores all values in memory only.
  * This is useful for temporary Configurations for providing defaults.
  */
+@SuppressWarnings("unchecked")
 public class MemoryConfiguration extends MemorySection implements Configuration {
     protected Configuration defaults;
     protected MemoryConfigurationOptions options;

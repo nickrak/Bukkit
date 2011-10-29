@@ -437,7 +437,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<String> result = new ArrayList();
+        List<String> result = new ArrayList<String>();
         
         for (Object object : list) {
             if ((object instanceof String) || (isPrimitiveWrapper(object))) {
@@ -454,7 +454,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Integer> result = new ArrayList();
+        List<Integer> result = new ArrayList<Integer>();
         
         for (Object object : list) {
             if (object instanceof Integer) {
@@ -489,7 +489,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Boolean> result = new ArrayList();
+        List<Boolean> result = new ArrayList<Boolean>();
         
         for (Object object : list) {
             if (object instanceof Boolean) {
@@ -512,7 +512,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Double> result = new ArrayList();
+        List<Double> result = new ArrayList<Double>();
         
         for (Object object : list) {
             if (object instanceof Double) {
@@ -547,7 +547,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Float> result = new ArrayList();
+        List<Float> result = new ArrayList<Float>();
         
         for (Object object : list) {
             if (object instanceof Float) {
@@ -582,7 +582,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Long> result = new ArrayList();
+        List<Long> result = new ArrayList<Long>();
         
         for (Object object : list) {
             if (object instanceof Long) {
@@ -617,7 +617,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Byte> result = new ArrayList();
+        List<Byte> result = new ArrayList<Byte>();
         
         for (Object object : list) {
             if (object instanceof Byte) {
@@ -652,7 +652,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Character> result = new ArrayList();
+        List<Character> result = new ArrayList<Character>();
         
         for (Object object : list) {
             if (object instanceof Character) {
@@ -689,7 +689,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Short> result = new ArrayList();
+        List<Short> result = new ArrayList<Short>();
         
         for (Object object : list) {
             if (object instanceof Short) {
@@ -724,7 +724,7 @@ public class MemorySection implements ConfigurationSection {
         }
 
         List<Object> list = getList(path);
-        List<Map<String, Object>> result = new ArrayList();
+        List<Map<String, Object>> result = new ArrayList<Map<String, Object>>();
         
         for (Object object : list) {
             if (object instanceof Map) {
