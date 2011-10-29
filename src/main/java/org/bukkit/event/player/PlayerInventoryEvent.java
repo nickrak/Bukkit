@@ -7,6 +7,7 @@ import org.bukkit.inventory.Inventory;
  * Represents a player related inventory event
  */
 public class PlayerInventoryEvent extends PlayerEvent {
+    private static final long serialVersionUID = -7265235502044137802L;
     protected Inventory inventory;
 
     public PlayerInventoryEvent(final Player player, final Inventory inventory) {

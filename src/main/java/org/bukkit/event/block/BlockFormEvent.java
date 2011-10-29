@@ -18,6 +18,7 @@ import org.bukkit.event.Cancellable;
  * @see BlockSpreadEvent
  */
 public class BlockFormEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = -2740278937444304660L;
     private boolean cancelled;
     private BlockState newState;
 

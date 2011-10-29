@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
  */
 public class PlayerPortalEvent extends PlayerTeleportEvent {
 
+    private static final long serialVersionUID = 5251465174364013986L;
     protected boolean useTravelAgent = true;
 
     protected Player player;

@@ -5,6 +5,7 @@ import org.bukkit.entity.Player;
 
 public class PlayerChangedWorldEvent extends PlayerEvent {
 
+    private static final long serialVersionUID = -551262582025456277L;
     private final World from;
 
     public PlayerChangedWorldEvent(Player player, World from) {

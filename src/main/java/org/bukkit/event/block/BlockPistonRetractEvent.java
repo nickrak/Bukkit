@@ -5,6 +5,8 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 
 public class BlockPistonRetractEvent extends BlockPistonEvent {
+    private static final long serialVersionUID = -7319683708298510960L;
+
     public BlockPistonRetractEvent(Block block, BlockFace direction) {
         super(Type.BLOCK_PISTON_RETRACT, block, direction);
     }

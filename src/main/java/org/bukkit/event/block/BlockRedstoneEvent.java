@@ -6,6 +6,7 @@ import org.bukkit.block.Block;
  * Called when a redstone current changes
  */
 public class BlockRedstoneEvent extends BlockEvent {
+    private static final long serialVersionUID = 4699700519411889120L;
     private int oldCurrent;
     private int newCurrent;
 

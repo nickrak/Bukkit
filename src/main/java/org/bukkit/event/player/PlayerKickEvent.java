@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a player gets kicked from the server
  */
 public class PlayerKickEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = -7479994405055843611L;
     private String leaveMessage;
     private String kickReason;
     private Boolean cancel;

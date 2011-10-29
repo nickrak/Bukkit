@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
 import org.bukkit.material.PistonBaseMaterial;
 
 public abstract class BlockPistonEvent extends BlockEvent implements Cancellable                                                                                                                                                              {
+    private static final long serialVersionUID = 9062618697374975077L;
     private boolean cancelled;
     private BlockFace direction;
 

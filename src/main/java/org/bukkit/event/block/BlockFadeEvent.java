@@ -15,6 +15,7 @@ import org.bukkit.event.Cancellable;
  * If a Block Fade event is cancelled, the block will not fade, melt or disappear.
  */
 public class BlockFadeEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = 2984729898097579566L;
     private boolean cancelled;
     private BlockState newState;
 

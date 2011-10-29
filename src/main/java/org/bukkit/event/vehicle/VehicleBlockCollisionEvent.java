@@ -7,6 +7,7 @@ import org.bukkit.entity.Vehicle;
  * Raised when a vehicle collides with a block.
  */
 public class VehicleBlockCollisionEvent extends VehicleCollisionEvent {
+    private static final long serialVersionUID = 3816321579063667076L;
     private Block block;
 
     public VehicleBlockCollisionEvent(Vehicle vehicle, Block block) {

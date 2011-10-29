@@ -15,6 +15,7 @@ import org.bukkit.event.Cancellable;
  */
 public class BlockBreakEvent extends BlockEvent implements Cancellable {
 
+    private static final long serialVersionUID = -2299744890360380386L;
     private Player player;
     private boolean cancel;
 

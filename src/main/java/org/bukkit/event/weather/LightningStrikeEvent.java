@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  */
 public class LightningStrikeEvent extends WeatherEvent implements Cancellable {
 
+    private static final long serialVersionUID = -3538982474783855347L;
     private boolean canceled;
     private LightningStrike bolt;
 

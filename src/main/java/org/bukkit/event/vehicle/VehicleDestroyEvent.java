@@ -10,6 +10,7 @@ import org.bukkit.event.Cancellable;
  * due to other means.
  */
 public class VehicleDestroyEvent extends VehicleEvent implements Cancellable {
+    private static final long serialVersionUID = 2742209109069697856L;
     private Entity attacker;
     private boolean cancelled;
 

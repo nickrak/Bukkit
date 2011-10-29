@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Thrown when a player picks an item up from the ground
  */
 public class PlayerPickupItemEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = 1367518833487282749L;
     private final Item item;
     private boolean cancel = false;
     private int remaining;

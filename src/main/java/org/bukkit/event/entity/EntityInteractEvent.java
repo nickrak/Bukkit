@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Called when an entity interacts with an object
  */
 public class EntityInteractEvent extends EntityEvent implements Cancellable {
+    private static final long serialVersionUID = -8381250232728586270L;
     protected Block block;
 
     private boolean cancelled;

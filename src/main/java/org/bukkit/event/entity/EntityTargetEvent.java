@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a creature targets or untargets another entity
  */
 public class EntityTargetEvent extends EntityEvent implements Cancellable {
+    private static final long serialVersionUID = -3721619600773591112L;
     private boolean cancel;
     private Entity target;
     private TargetReason reason;

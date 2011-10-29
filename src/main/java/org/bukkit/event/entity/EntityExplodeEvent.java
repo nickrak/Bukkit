@@ -10,6 +10,7 @@ import org.bukkit.event.Cancellable;
  * Called when an entity explodes
  */
 public class EntityExplodeEvent extends EntityEvent implements Cancellable {
+    private static final long serialVersionUID = -2305967214102114163L;
     private boolean cancel;
     private Location location;
     private List<Block> blocks;

@@ -8,6 +8,7 @@ import org.bukkit.entity.Entity;
  * Thrown when a player is fishing
  */
 public class PlayerFishEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = -4665290242594162243L;
     private final Entity entity;
     private boolean cancel = false;
     private State state;

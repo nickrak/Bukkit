@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  */
 public class WeatherChangeEvent extends WeatherEvent implements Cancellable {
 
+    private static final long serialVersionUID = 6675951640239126648L;
     private boolean canceled;
     private boolean to;
 

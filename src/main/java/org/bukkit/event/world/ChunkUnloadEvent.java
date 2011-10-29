@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a chunk is unloaded
  */
 public class ChunkUnloadEvent extends ChunkEvent implements Cancellable {
+    private static final long serialVersionUID = 2955282244933680258L;
     private boolean cancel = false;
 
     public ChunkUnloadEvent(final Chunk chunk) {

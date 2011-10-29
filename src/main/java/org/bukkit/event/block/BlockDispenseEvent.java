@@ -12,6 +12,7 @@ import org.bukkit.util.Vector;
  */
 public class BlockDispenseEvent extends BlockEvent implements Cancellable {
 
+    private static final long serialVersionUID = 187146228478028237L;
     private boolean cancelled = false;
     private ItemStack item;
     private Vector velocity;

@@ -11,6 +11,7 @@ import org.bukkit.event.Cancellable;
  * Holds information for player chat and commands
  */
 public class PlayerChatEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = 816508563387609309L;
     private boolean cancel = false;
     private String message;
     private String format = "<%1$s> %2$s";

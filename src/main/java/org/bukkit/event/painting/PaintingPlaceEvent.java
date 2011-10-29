@@ -12,6 +12,7 @@ import org.bukkit.event.Event;
  */
 public class PaintingPlaceEvent extends PaintingEvent implements Cancellable {
 
+    private static final long serialVersionUID = -1600051457044576984L;
     private boolean cancelled;
 
     private Player player;

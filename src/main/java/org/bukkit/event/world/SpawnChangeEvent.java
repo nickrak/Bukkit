@@ -8,6 +8,7 @@ import org.bukkit.Location;
  * world's previous spawn location is included.
  */
 public class SpawnChangeEvent extends WorldEvent {
+    private static final long serialVersionUID = -5010240058837585212L;
     private Location previousLocation;
 
     public SpawnChangeEvent(World world, Location previousLocation) {

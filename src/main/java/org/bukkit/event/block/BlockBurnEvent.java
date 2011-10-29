@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  * If a Block Burn event is cancelled, the block will not be destroyed as a result of being burnt by fire.
  */
 public class BlockBurnEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = 907775378053613301L;
     private boolean cancelled;
 
     public BlockBurnEvent(Block block) {

@@ -7,6 +7,7 @@ import org.bukkit.event.Event;
  * Represents a Weather-related event
  */
 public class WeatherEvent extends Event {
+    private static final long serialVersionUID = -3532338885206213025L;
     protected World world;
 
     public WeatherEvent(final Event.Type type, final World where) {

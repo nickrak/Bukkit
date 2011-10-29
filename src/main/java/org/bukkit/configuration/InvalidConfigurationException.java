@@ -4,6 +4,8 @@ package org.bukkit.configuration;
  * Exception thrown when attempting to load an invalid {@link Configuration}
  */
 public class InvalidConfigurationException extends Exception {
+    private static final long serialVersionUID = -941793616866648573L;
+
     /**
      * Creates a new instance of InvalidConfigurationException without a message or cause.
      */

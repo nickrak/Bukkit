@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
  */
 public class PlayerQuitEvent extends PlayerEvent {
 
+    private static final long serialVersionUID = 7468625037636214692L;
     private String quitMessage;
 
     public PlayerQuitEvent(Player who, String quitMessage) {

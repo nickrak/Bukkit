@@ -6,6 +6,7 @@ import org.bukkit.Chunk;
  * Called when a chunk is loaded
  */
 public class ChunkLoadEvent extends ChunkEvent {
+    private static final long serialVersionUID = -4304466511151392715L;
     private final boolean newChunk;
 
     public ChunkLoadEvent(final Chunk chunk, final boolean newChunk) {

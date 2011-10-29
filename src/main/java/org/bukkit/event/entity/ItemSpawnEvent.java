@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  */
 public class ItemSpawnEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = -5636021358566114344L;
     private Location location;
     private boolean canceled;
 

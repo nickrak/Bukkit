@@ -6,6 +6,7 @@ import org.bukkit.event.Cancellable;
 
 public class EndermanPickupEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = 8099799364466441655L;
     private boolean cancel;
     private Block block;
 

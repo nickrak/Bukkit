@@ -13,6 +13,7 @@ import org.bukkit.Material;
  * </ul>
  */
 public class BlockCanBuildEvent extends BlockEvent {
+    private static final long serialVersionUID = 6674910070970840366L;
     protected boolean buildable;
     protected int material;
 

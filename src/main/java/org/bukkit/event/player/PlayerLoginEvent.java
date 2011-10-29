@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
  * Stores details for players attempting to log in
  */
 public class PlayerLoginEvent extends PlayerEvent {
+    private static final long serialVersionUID = -5241108372018045225L;
     private Result result;
     private String message;
 

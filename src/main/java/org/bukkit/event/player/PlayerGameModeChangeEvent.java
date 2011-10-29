@@ -6,6 +6,7 @@ import org.bukkit.event.Cancellable;
 
 public class PlayerGameModeChangeEvent extends PlayerEvent implements Cancellable {
 
+    private static final long serialVersionUID = -2945568150684798947L;
     private boolean cancelled;
     private GameMode newGameMode;
 

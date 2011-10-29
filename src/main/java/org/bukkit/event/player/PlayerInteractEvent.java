@@ -12,6 +12,7 @@ import org.bukkit.event.block.Action;
  * Called when a player interacts with an object or air.
  */
 public class PlayerInteractEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = -504571895826175732L;
     protected ItemStack item;
     protected Action action;
     protected Block blockClicked;

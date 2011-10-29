@@ -1,6 +1,7 @@
 package org.bukkit.plugin;
 
 public class AuthorNagException extends RuntimeException {
+    private static final long serialVersionUID = -4258205358958586496L;
     private final String message;
 
     /**

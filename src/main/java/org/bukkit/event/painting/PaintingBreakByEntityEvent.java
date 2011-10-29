@@ -7,6 +7,7 @@ import org.bukkit.entity.Painting;
  * Triggered when a painting is removed by an entity
  */
 public class PaintingBreakByEntityEvent extends PaintingBreakEvent {
+    private static final long serialVersionUID = -8269944417527284176L;
     private Entity remover;
 
     public PaintingBreakByEntityEvent(final Painting painting, final Entity remover) {

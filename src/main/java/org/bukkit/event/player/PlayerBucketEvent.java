@@ -9,6 +9,7 @@ import org.bukkit.inventory.ItemStack;
 
 public abstract class PlayerBucketEvent extends PlayerEvent implements Cancellable {
 
+    private static final long serialVersionUID = 3687481269350528635L;
     private ItemStack itemStack;
     private boolean cancelled = false;
     private Block blockClicked;

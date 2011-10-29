@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Raised when a vehicle collides with an entity.
  */
 public class VehicleEntityCollisionEvent extends VehicleCollisionEvent implements Cancellable {
+    private static final long serialVersionUID = -6628853540143435311L;
     private Entity entity;
     private boolean cancelled = false;
     private boolean cancelledPickup = false;

@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a player toggles their sprinting state
  */
 public class PlayerToggleSprintEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = 8069120068473380550L;
     private boolean isSprinting;
     private boolean cancel = false;
 

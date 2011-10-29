@@ -7,6 +7,7 @@ import org.bukkit.entity.Entity;
  */
 public class EntityDamageByEntityEvent extends EntityDamageEvent {
 
+    private static final long serialVersionUID = 1095312279144666159L;
     private Entity damager;
 
     public EntityDamageByEntityEvent(Entity damager, Entity damagee, DamageCause cause, int damage) {

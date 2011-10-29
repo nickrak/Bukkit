@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Thrown when a player drops an item from their inventory
  */
 public class PlayerDropItemEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = 3705335881999405541L;
     private final Item drop;
     private boolean cancel = false;
 

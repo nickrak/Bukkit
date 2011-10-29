@@ -10,6 +10,7 @@ import java.util.Collection;
  * Called when the world attempts to create a matching end to a portal
  */
 public class PortalCreateEvent extends WorldEvent implements Cancellable {
+    private static final long serialVersionUID = 5224328891958105156L;
     private boolean cancel = false;
     private ArrayList<Block> blocks = new ArrayList<Block>();
 

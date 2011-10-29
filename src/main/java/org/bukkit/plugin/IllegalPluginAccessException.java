@@ -5,6 +5,8 @@ package org.bukkit.plugin;
  */
 public class IllegalPluginAccessException extends RuntimeException {
 
+    private static final long serialVersionUID = -7463488515651944311L;
+
     /**
      * Creates a new instance of <code>IllegalPluginAccessException</code> without detail message.
      */

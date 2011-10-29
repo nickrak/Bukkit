@@ -10,6 +10,7 @@ import org.bukkit.event.Cancellable;
  */
 public class CreeperPowerEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = -7457591838820876788L;
     private boolean canceled;
     private PowerCause cause;
     private Entity bolt;

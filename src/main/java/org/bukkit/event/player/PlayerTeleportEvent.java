@@ -8,6 +8,7 @@ import org.bukkit.event.Event;
  * Holds information for player teleport events
  */
 public class PlayerTeleportEvent extends PlayerMoveEvent {
+    private static final long serialVersionUID = 1145074899318255173L;
     public PlayerTeleportEvent(Player player, Location from, Location to) {
         super(Type.PLAYER_TELEPORT, player, from, to);
     }

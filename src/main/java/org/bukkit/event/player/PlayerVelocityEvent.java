@@ -7,6 +7,8 @@ import org.bukkit.util.Vector;
 
 public class PlayerVelocityEvent extends PlayerEvent implements Cancellable {
 
+    private static final long serialVersionUID = 7618073756203238125L;
+    
     /**
      * Holds information for player velocity events
      */

@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  */
 public class PaintingBreakEvent extends PaintingEvent implements Cancellable {
 
+    private static final long serialVersionUID = -4955400857695186694L;
     private boolean cancelled;
     private RemoveCause cause;
 

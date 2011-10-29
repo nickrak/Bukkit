@@ -9,6 +9,7 @@ import org.bukkit.event.Event;
  */
 public class EntityDamageEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = 7027431727313408650L;
     private int damage;
     private boolean cancelled;
     private DamageCause cause;

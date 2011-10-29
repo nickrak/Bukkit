@@ -11,6 +11,7 @@ import org.bukkit.entity.Projectile;
 @Deprecated
 public class EntityDamageByProjectileEvent extends EntityDamageByEntityEvent {
 
+    private static final long serialVersionUID = 1931096722230497222L;
     private Projectile projectile;
 
     public EntityDamageByProjectileEvent(Entity damagee, Projectile projectile, DamageCause cause, int damage) {

@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  */
 public class PlayerAnimationEvent extends PlayerEvent implements Cancellable {
 
+    private static final long serialVersionUID = 4121182031058893923L;
     private PlayerAnimationType animationType;
     private boolean isCancelled = false;
 

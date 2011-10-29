@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  */
 public class PlayerBedEnterEvent extends PlayerEvent implements Cancellable {
 
+    private static final long serialVersionUID = 5145618771865804904L;
     private boolean cancel = false;
     private Block bed;
 

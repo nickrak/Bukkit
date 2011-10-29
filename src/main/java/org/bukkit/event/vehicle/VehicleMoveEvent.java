@@ -7,6 +7,7 @@ import org.bukkit.entity.Vehicle;
  * Raised when a vehicle moves.
  */
 public class VehicleMoveEvent extends VehicleEvent {
+    private static final long serialVersionUID = -3212917242546265225L;
     private Location from;
     private Location to;
 

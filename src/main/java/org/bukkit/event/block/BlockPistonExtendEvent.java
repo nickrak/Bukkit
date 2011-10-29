@@ -8,6 +8,7 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 
 public class BlockPistonExtendEvent extends BlockPistonEvent {
+    private static final long serialVersionUID = -3682036771176470127L;
     private int length;
     private List<Block> blocks;
 

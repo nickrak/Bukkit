@@ -6,6 +6,7 @@ import org.bukkit.event.Cancellable;
 
 public class EndermanPlaceEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = -1314160341953387075L;
     private boolean cancel;
     private Location location;
 

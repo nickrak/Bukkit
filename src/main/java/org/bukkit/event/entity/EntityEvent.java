@@ -7,6 +7,7 @@ import org.bukkit.event.Event;
  * Represents an Entity-related event
  */
 public class EntityEvent extends Event {
+    private static final long serialVersionUID = 1857656501253113720L;
     protected Entity entity;
 
     public EntityEvent(final Event.Type type, final Entity what) {

@@ -9,6 +9,7 @@ import org.bukkit.inventory.ItemStack;
  * Called when an ItemStack is successfully smelted in a furnace.
  */
 public class FurnaceSmeltEvent extends Event implements Cancellable{
+    private static final long serialVersionUID = -8705777966066909896L;
     private Block furnace;
     private ItemStack source;
     private ItemStack result;

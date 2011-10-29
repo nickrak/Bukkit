@@ -8,6 +8,7 @@ import org.bukkit.entity.Projectile;
  * Represents an event
  */
 public abstract class Event implements Serializable {
+    private static final long serialVersionUID = 6070295079929927866L;
     private final Type type;
     private final String name;
 

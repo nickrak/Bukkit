@@ -7,6 +7,7 @@ import org.bukkit.event.Event;
  * Stores details for players attempting to log in
  */
 public class PlayerPreLoginEvent extends Event {
+    private static final long serialVersionUID = 524523050320128354L;
     private Result result;
     private String message;
     private String name;

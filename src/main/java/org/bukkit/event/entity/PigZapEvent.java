@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  */
 public class PigZapEvent extends EntityEvent implements Cancellable {
 
+    private static final long serialVersionUID = -7897067928934798058L;
     private boolean canceled;
     private Entity pigzombie;
     private Entity bolt;

@@ -9,6 +9,7 @@ import org.bukkit.event.Event;
  */
 public class ServerListPingEvent extends ServerEvent {
     
+    private static final long serialVersionUID = -5301753837405827903L;
     private InetAddress address;
     private String motd;
     private int numPlayers;

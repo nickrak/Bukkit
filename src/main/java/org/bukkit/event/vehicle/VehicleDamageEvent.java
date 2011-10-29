@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Raised when a vehicle receives damage.
  */
 public class VehicleDamageEvent extends VehicleEvent implements Cancellable {
+    private static final long serialVersionUID = 6673475942674675936L;
     private Entity attacker;
     private int damage;
     private boolean cancelled;

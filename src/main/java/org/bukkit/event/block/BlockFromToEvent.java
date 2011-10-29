@@ -10,6 +10,7 @@ import org.bukkit.event.Cancellable;
  * If a Block From To event is cancelled, the block will not move (the liquid will not flow).
  */
 public class BlockFromToEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = -1688684810762057205L;
     protected Block to;
     protected BlockFace face;
     protected boolean cancel;

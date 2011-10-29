@@ -8,6 +8,7 @@ import org.bukkit.entity.Player;
  */
 public class PlayerBedLeaveEvent extends PlayerEvent {
 
+    private static final long serialVersionUID = 7354681588577127595L;
     private Block bed;
 
     public PlayerBedLeaveEvent(Player who, Block bed) {

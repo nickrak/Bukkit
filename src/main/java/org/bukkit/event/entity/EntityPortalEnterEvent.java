@@ -9,6 +9,7 @@ import org.bukkit.Location;
  */
 public class EntityPortalEnterEvent extends EntityEvent {
 
+    private static final long serialVersionUID = 893451552895869500L;
     private Location location;
 
     public EntityPortalEnterEvent(Entity entity, Location location) {

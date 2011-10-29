@@ -7,6 +7,7 @@ import org.bukkit.command.ConsoleCommandSender;
  * Server Command events
  */
 public class ServerCommandEvent extends ServerEvent {
+    private static final long serialVersionUID = 2153676076479013654L;
     private String command;
     private CommandSender sender;
     public ServerCommandEvent(ConsoleCommandSender console, String message) {

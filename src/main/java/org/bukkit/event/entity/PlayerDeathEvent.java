@@ -9,6 +9,7 @@ import org.bukkit.inventory.ItemStack;
  * Thrown whenever a {@link Player} dies
  */
 public class PlayerDeathEvent extends EntityDeathEvent {
+    private static final long serialVersionUID = 5415948923244259740L;
     private int newExp = 0;
     private String deathMessage = "";
 

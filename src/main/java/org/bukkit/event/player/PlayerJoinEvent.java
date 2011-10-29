@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
  * Called when a player joins a server
  */
 public class PlayerJoinEvent extends PlayerEvent {
+    private static final long serialVersionUID = 4382846545695726251L;
     private String joinMessage;
 
     public PlayerJoinEvent(Player playerJoined, String joinMessage) {

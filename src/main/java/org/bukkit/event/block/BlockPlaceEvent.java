@@ -12,6 +12,7 @@ import org.bukkit.inventory.ItemStack;
  * If a Block Place event is cancelled, the block will not be placed.
  */
 public class BlockPlaceEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = 6167543976426396767L;
     protected boolean cancel;
     protected boolean canBuild;
     protected Block placedAgainst;

@@ -8,6 +8,7 @@ import org.bukkit.inventory.ItemStack;
  * Called when an ItemStack is successfully burned as fuel in a furnace.
  */
 public class FurnaceBurnEvent extends Event implements Cancellable {
+    private static final long serialVersionUID = -7561340190059410747L;
     private Block furnace;
     private ItemStack fuel;
     private int burnTime;

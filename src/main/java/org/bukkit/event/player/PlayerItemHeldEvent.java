@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
  * Fired when a player changes their currently held item
  */
 public class PlayerItemHeldEvent extends PlayerEvent {
+    private static final long serialVersionUID = -1659851552890315513L;
     private int previous;
     private int current;
 

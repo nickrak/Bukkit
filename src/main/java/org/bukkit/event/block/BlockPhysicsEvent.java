@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Thrown when a block physics check is called
  */
 public class BlockPhysicsEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = 2421292809792532289L;
     private final int changed;
     private boolean cancel = false;
 

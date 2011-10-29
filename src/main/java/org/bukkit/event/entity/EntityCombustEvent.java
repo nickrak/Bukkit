@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  * If an Entity Combust event is cancelled, the entity will not combust.
  */
 public class EntityCombustEvent extends EntityEvent implements Cancellable {
+    private static final long serialVersionUID = 2096913978422612886L;
     private boolean cancel;
 
     public EntityCombustEvent(Entity what) {

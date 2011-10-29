@@ -7,6 +7,8 @@ import org.bukkit.entity.Projectile;
  */
 public class ProjectileHitEvent extends EntityEvent {
 
+    private static final long serialVersionUID = 9014380504074999964L;
+
     public ProjectileHitEvent(Projectile projectile) {
         super(Type.PROJECTILE_HIT, projectile);
     }

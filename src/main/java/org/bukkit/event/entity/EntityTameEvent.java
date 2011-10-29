@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Thrown when a LivingEntity is tamed
  */
 public class EntityTameEvent extends EntityEvent implements Cancellable {
+    private static final long serialVersionUID = 903723854737012800L;
     private boolean cancelled;
     private AnimalTamer owner;
 

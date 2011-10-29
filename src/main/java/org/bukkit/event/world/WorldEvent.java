@@ -7,6 +7,7 @@ import org.bukkit.event.Event;
  * Represents events within a world
  */
 public class WorldEvent extends Event {
+    private static final long serialVersionUID = -9132852084878423736L;
     private final World world;
 
     public WorldEvent(final Type type, final World world) {

@@ -9,6 +9,7 @@ import org.bukkit.event.Cancellable;
  * If a Leaves Decay event is cancelled, the leaves will not decay.
  */
 public class LeavesDecayEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = -7915200541438746025L;
     private boolean cancel = false;
 
     public LeavesDecayEvent(final Block block) {

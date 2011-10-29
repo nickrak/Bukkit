@@ -4,6 +4,7 @@ import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
 public class PlayerRespawnEvent extends PlayerEvent {
+    private static final long serialVersionUID = 1570264476886912099L;
     private Location respawnLocation;
     private boolean isBedSpawn;
 

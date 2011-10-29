@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a World is unloaded
  */
 public class WorldUnloadEvent extends WorldEvent implements Cancellable {
+    private static final long serialVersionUID = -5383579985989272207L;
     private boolean isCancelled;
 
     public WorldUnloadEvent(World world) {

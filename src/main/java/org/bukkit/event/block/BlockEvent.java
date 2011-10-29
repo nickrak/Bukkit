@@ -7,6 +7,7 @@ import org.bukkit.event.Event;
  * Represents a block related event.
  */
 public class BlockEvent extends Event {
+    private static final long serialVersionUID = 8680912504524068424L;
     protected Block block;
 
     public BlockEvent(final Event.Type type, final Block theBlock) {

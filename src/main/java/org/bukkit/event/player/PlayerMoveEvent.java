@@ -9,6 +9,7 @@ import org.bukkit.event.Event;
  * Holds information for player movement events
  */
 public class PlayerMoveEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = -1015361960214523446L;
     private boolean cancel = false;
     private Location from;
     private Location to;

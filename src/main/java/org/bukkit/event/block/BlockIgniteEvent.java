@@ -11,6 +11,7 @@ import org.bukkit.event.Event;
  * If a Block Ignite event is cancelled, the block will not be ignited.
  */
 public class BlockIgniteEvent extends BlockEvent implements Cancellable {
+    private static final long serialVersionUID = 6210740297312456542L;
     private IgniteCause cause;
     private boolean cancel;
     private Player thePlayer;

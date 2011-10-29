@@ -8,6 +8,7 @@ import org.bukkit.event.Event;
  */
 public class PaintingEvent extends Event {
 
+    private static final long serialVersionUID = 7115782816619739258L;
     protected Painting painting;
 
     protected PaintingEvent(final Type type, final Painting painting) {

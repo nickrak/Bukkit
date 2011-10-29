@@ -10,6 +10,8 @@ import org.bukkit.inventory.ItemStack;
  * Called when a player empties a bucket
  */
 public class PlayerBucketEmptyEvent extends PlayerBucketEvent {
+    private static final long serialVersionUID = -1617786891000680137L;
+
     public PlayerBucketEmptyEvent(Player who, Block blockClicked, BlockFace blockFace, Material bucket, ItemStack itemInHand) {
         super(Type.PLAYER_BUCKET_EMPTY,  who, blockClicked, blockFace, bucket, itemInHand);
 

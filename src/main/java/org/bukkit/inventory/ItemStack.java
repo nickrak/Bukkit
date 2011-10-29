@@ -11,6 +11,7 @@ import org.bukkit.material.MaterialData;
  * Represents a stack of items
  */
 public class ItemStack implements Serializable, ConfigurationSerializable {
+    private static final long serialVersionUID = -3874495449448973517L;
     private int type;
     private int amount = 0;
     private MaterialData data = null;

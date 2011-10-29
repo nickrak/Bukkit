@@ -7,6 +7,7 @@ import org.bukkit.event.Cancellable;
  * Called when a player toggles their sneaking state
  */
 public class PlayerToggleSneakEvent extends PlayerEvent implements Cancellable {
+    private static final long serialVersionUID = 7018647605430083967L;
     private boolean isSneaking;
     private boolean cancel = false;
 

@@ -8,6 +8,7 @@ import org.bukkit.event.Cancellable;
  * Raised when an entity enters a vehicle.
  */
 public class VehicleEnterEvent extends VehicleEvent implements Cancellable {
+    private static final long serialVersionUID = 2624544772463974512L;
     private boolean cancelled;
     private Entity entered;
 

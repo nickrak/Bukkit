@@ -7,6 +7,7 @@ import org.bukkit.map.MapView;
  * Called when a map is initialized.
  */
 public class MapInitializeEvent extends ServerEvent {
+    private static final long serialVersionUID = 3025517029331231024L;
     private final MapView mapView;
     
     public MapInitializeEvent(MapView mapView) {

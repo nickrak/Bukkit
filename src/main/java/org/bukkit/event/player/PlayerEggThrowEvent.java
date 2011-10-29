@@ -8,6 +8,7 @@ import org.bukkit.entity.Player;
  * Called when a player throws an egg and it might hatch
  */
 public class PlayerEggThrowEvent extends PlayerEvent {
+    private static final long serialVersionUID = 7883149824372806674L;
     private Egg egg;
     private boolean hatching;
     private CreatureType hatchType;

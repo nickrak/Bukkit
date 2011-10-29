@@ -16,6 +16,7 @@ import org.bukkit.block.BlockState;
  * @see BlockFormEvent
  */
 public class BlockSpreadEvent extends BlockFormEvent {
+    private static final long serialVersionUID = -1826786193703022957L;
     private Block source;
 
     public BlockSpreadEvent(Block block, Block source, BlockState newState) {
