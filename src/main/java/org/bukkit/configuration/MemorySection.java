@@ -229,10 +229,8 @@ public class MemorySection implements ConfigurationSection {
         if (section == this) {
             result = map.get(key);
             return (result == null) ? def : result;
-        } else if (section != null) {
-            return section.get(key, def);
         } else {
-            return def;
+            return section.get(key, def);
         }
     }
 

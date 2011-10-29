@@ -90,10 +90,8 @@ public class PermissibleBase implements Permissible {
 
         if (isPermissionSet(name)) {
             return permissions.get(name).getValue();
-        } else if (perm != null) {
-            return perm.getDefault().getValue(isOp());
         } else {
-            return Permission.DEFAULT_PERMISSION.getValue(isOp());
+            return perm.getDefault().getValue(isOp());
         }
     }
 
